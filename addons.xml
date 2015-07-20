@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="repository.OperationRobocop" name="Montijo`s Kodi Repo" version="1.0" provider-name="Cesar Montijo">
+	<extension point="xbmc.addon.repository" name="Montijo`s Addon Repository">
+		<info compressed="false">https://raw.github.com/smokeythejunglist/My-Repo/master/addons.xm</info>
+		<checksum>https://raw.github.com/smokeythejunglist/My-Repo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.github.com/smokeythejunglist/My-Repo/raw/master/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install Montijo`s repo and Addons</summary>
+		<description>Home of Operation Robocop</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="plugin.video.OperationRobocop"
        name="OperationRobocop"
        version="1.0"
